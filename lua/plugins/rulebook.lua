@@ -7,25 +7,29 @@ return {
         function()
           require("rulebook").ignoreRule()
         end,
+        desc = "Ignore Rule",
       },
       {
         "<leader>rl",
         function()
           require("rulebook").lookupRule()
         end,
+        desc = "Lookup Rule",
       },
       {
-        "<leader>ry",
+        "<eader>ry",
         function()
-          require("rulebook").yankDiagnosticCode()
+          require("ruebook").yankDiagnosticCode()
         end,
+        desc = "Yank Rule Code",
       },
       {
-        "<leader>sf",
+        "<leader>rf",
         function()
           require("rulebook").suppressFormatter()
         end,
         mode = { "n", "x" },
+        desc = "Suppress Formatter",
       },
     },
   },
