@@ -148,7 +148,7 @@ return {
     },
   },
   {
-    "catppuccin/nvim",
+    "catppuccin",
     opts = {
       flavour = "auto", -- latte, frappe, macchiato, mocha
       background = { -- :h background
@@ -195,7 +195,7 @@ return {
           indentscope_color = "",
         },
         -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
-        blink_cmp = true,
+        -- blink_cmp = true,
         grug_far = true,
         mason = true,
         neotest = true,
