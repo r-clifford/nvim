@@ -9,6 +9,11 @@ return {
       spec = {},
     },
   },
+  -- {
+  -- "0xstepit/flow.nvim",
+  -- },
+  { "ficcdaf/ashen.nvim" },
+  { "sainnhe/gruvbox-material" },
   {
     "rose-pine/neovim",
     name = "rose-pine",

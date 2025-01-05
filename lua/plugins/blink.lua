@@ -1,0 +1,26 @@
+return {
+  -- "Saghen/blink.cmp",
+  -- --@module 'blink.cmp'
+  -- --@type blink.cmp.Config
+  -- opts = {
+  --   sources = {
+  --     min_keyword_length = 0,
+  --   },
+  --   completion = {
+  --     menu = {
+  --       auto_show = true,
+  --     },
+  --     documentation = {
+  --       auto_show = true,
+  --       auto_show_delay_ms = 20,
+  --     },
+  --     trigger = {
+  --       prefetch_on_insert = true,
+  --     },
+  --     ghost_text = {
+  --       enabled = true,
+  --     },
+  --   },
+  -- },
+  --
+}

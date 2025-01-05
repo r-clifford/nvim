@@ -3,8 +3,19 @@ local ccmp = require("copilot.command")
 return {
   {
     "zbirenbaum/copilot.lua",
+    enabled = false,
     opts = {
-      suggestion = { enabled = false, auto_trigger = false },
+      suggestion = {
+        enabled = true,
+        auto_trigger = true,
+        hide_during_completion = true,
+        keymap = {
+          accept = "<M-a>",
+          next = "<M-n>",
+          prev = "<M-p>",
+          dismiss = "<M-d>",
+        },
+      },
     },
     keys = {
       {
@@ -16,6 +27,10 @@ return {
       },
     },
   },
+  -- {
+  --   "zbirenbaum/copilot-cmp",
+  --   enabled = false,
+  -- },
   {
     "CopilotC-Nvim/CopilotChat.nvim",
     keys = {
