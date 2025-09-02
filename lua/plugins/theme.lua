@@ -3,7 +3,7 @@ return {
     "folke/which-key.nvim",
     enabled = true,
     opts = {
-      preset = "helix", -- classic, modern, helix
+      preset = "modern", -- classic, modern, helix
       debug = vim.uv.cwd():find("which%-key"),
       win = {},
       spec = {},
@@ -215,7 +215,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-wave",
+      colorscheme = "catppuccin",
     },
   },
   {
